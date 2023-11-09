@@ -1,7 +1,9 @@
 # concurrent.futures 平行任務處理
 Overview
 ---
--  Python在執行時，通常採同步的處理模式。而Threading採用「執行緒」的方式，運用多個執行緒，在同一時間內處理多個任務 ( 非同步 )
+Python在執行時，通常採同步的處理模式。
+
+而Threading採用「執行緒」的方式，運用多個執行緒，在同一時間內處理多個任務 ( 非同步 )
 
 **ThreadPoolExecutor** :
 ------------------------------
